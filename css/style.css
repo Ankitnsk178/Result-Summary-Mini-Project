@@ -168,11 +168,14 @@
 }
 
 @media (max-width:768px){
+    .container{
+        height: auto;
+    }
     .card{
         flex-direction: column;
-        height: 100%;
+        height: auto;
         width: 100%;
-
+        border-radius: 0;
     }
     .left_container{
         width: 100%;
